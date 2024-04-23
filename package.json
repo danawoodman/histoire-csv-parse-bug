@@ -1,0 +1,32 @@
+{
+	"name": "histoire-csv-parse-bug",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+		"lint": "prettier --check .",
+		"format": "prettier --write .",
+		"story:dev": "histoire dev",
+		"story:build": "histoire build",
+		"story:preview": "histoire preview"
+	},
+	"devDependencies": {
+		"@histoire/plugin-svelte": "^0.17.17",
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"csv-parse": "^5.5.5",
+		"histoire": "^0.17.17",
+		"prettier": "^3.1.1",
+		"prettier-plugin-svelte": "^3.1.2",
+		"svelte": "^4.2.7",
+		"svelte-check": "^3.6.0",
+		"typescript": "^5.0.0",
+		"vite": "^5.0.3"
+	},
+	"type": "module"
+}
